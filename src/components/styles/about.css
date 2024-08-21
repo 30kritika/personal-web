@@ -1,0 +1,27 @@
+.about{
+    /* margin: 100px auto;  */
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 90%; */
+    background-color: black;
+}
+.about-left{
+    flex-basis: 56%;
+    position: relative;
+}
+.about-right{
+    flex-basis: 40%;
+}
+.about-img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+}
+.about-right h2{
+    font-size: 35px;
+    color: white;
+    margin: 10px 0;
+    max-width: 400px;
+}
