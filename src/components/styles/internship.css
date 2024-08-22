@@ -1,0 +1,70 @@
+.internship{
+    margin-top: 100px;
+    /* height: 100vh; */
+}
+h2{
+    font-size: 40px;
+    color: #141c2c;
+    margin: 10px 0;
+    max-width: 400px;
+}
+.int-timeline{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    position: relative;
+    margin-top: 20px;
+    padding-left: 40px; */
+    position: relative;
+    margin-top: 20px;
+    padding-left: 49px; 
+    margin-left: 70px;
+}
+.int-timeline::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 4px;
+    height: 100%;
+    margin-left: 5px;
+    background-color: #ccc;
+}
+.int-box{
+    background-color: #d3d7d8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    position: relative;
+    width:85%;
+}
+.int-box h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+.int-box .time{
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 15px;
+}
+.int-box p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.int-box::before {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: -30px;
+    width: 12px;
+    height: 12px;
+    background-color: #8197ae;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    z-index: 1;
+}

@@ -7,8 +7,8 @@ const Navbar = () => {
       <ul className='list'>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/about'>About</Link></li>
-        <li><Link to=''>Work</Link></li>
-        <li><Link to=''>Skill</Link></li>
+        <li><Link to='/work'>Work</Link></li>
+        <li><Link to='/skill'>Skill</Link></li>
         <li><button className='btn nav-btn'>Contact</button></li>
       </ul>
     </nav>
