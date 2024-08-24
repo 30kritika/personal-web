@@ -3,7 +3,7 @@ import { FaRegHandPointRight } from "react-icons/fa";
 
 const Internship = () => {
   return (
-    <div className="internship">
+    <div className="internship container">
         <h2>Internship</h2>
         <div className='int-timeline'>
             <div className='int-box'>

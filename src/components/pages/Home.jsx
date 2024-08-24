@@ -6,10 +6,10 @@ const Home = () => {
   return (
     <div className='home container'>
         <div className='home-text'>
-            <h2>Kritika Baghel</h2>
+            <h2 className='home-head'>Kritika Baghel</h2>
             <p>Front-end developer</p>
         </div>
-        <Link to='/about' className='btn home-btn'>Dive in <FaArrowRight /></Link>
+        <Link to='/about' className='btn home-btn'>Dive in <FaArrowRight className='arrow'/></Link>
     </div>
   )
 }

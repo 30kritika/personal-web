@@ -1,5 +1,6 @@
 import Education from './Education'
-import Internship from './Internship'
+import Footer from './Footer'
+// import Internship from './Internship'
 import Navbar from './Navbar'
 import '/src/components/styles/about.css'
 import main from '/src/images/img.jpeg'
@@ -13,7 +14,18 @@ const About = () => {
       <div className='main'>
         <div className='about-left'>
           <h2>About </h2>
-          <p className='para'>Front-End Developer with a strong command of HTML5, CSS, 
+          {/* <p className='para'>I’m Kritika Baghel, a passionate front-end developer currently
+          pursuing a degree in Computer Science at Manav Rachna University.
+          My journey in technology began with an interest in creating dynamic
+          and interactive web applications, which led me to develop skills 
+          in HTML5, CSS, JavaScript, and ReactJS.</p> */}
+          <p className='para'>I’m Kritika Baghel, a passionate front-end 
+          developer currently pursuing a degree in Computer Science at 
+          Manav Rachna University. My journey in technology began with an 
+          interest in creating dynamic and interactive web applications, 
+          which led me to develop skills in HTML5, CSS, JavaScript, and 
+          ReactJS.<br/>
+          Front-End Developer with a strong command of HTML5, CSS, 
           and JavaScript, specializing in creating dynamic, responsive, 
           and user-friendly web applications using ReactJS. Adept at 
           leveraging modern front-end frameworks to build intuitive 
@@ -33,7 +45,8 @@ const About = () => {
         </div>
       </div>
       <Education/>
-      <Internship />
+      {/* <Internship /> */}
+      <Footer />
     </div>
   )
 }
