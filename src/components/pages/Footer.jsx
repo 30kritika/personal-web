@@ -3,7 +3,7 @@ import '/src/components/styles/footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
-      <p>© 2024 Kritika Baghel. All rights reserved.</p>
+      <p>© 2024 Kritika Baghel.</p>
     </div>
   )
 }
